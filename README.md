@@ -46,5 +46,5 @@ Important notes:
 UML Diagram:
 
 
+![image](https://github.com/TieNuw/CS361_microservice/assets/107895279/af1b072a-2c4c-4ab3-83a6-69a2f4cf0fcf)
 
-![UML](https://github.com/TieNuw/CS361_microservice/assets/107895279/760e73ed-8818-4379-a159-28b3405e8a4d)
