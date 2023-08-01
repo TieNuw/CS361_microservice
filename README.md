@@ -8,7 +8,9 @@ Requesting data:
 An HTTP post is required in order to request data from the microservice. The HTTP post must be requested at the specific endpoint and include the following parameters.
 
 Endpoint: /weather
+
 HTTP Method: POST
+
 parameter = {'latitude': latitude, 'longitude': longitude}
 
 Example of how to make a request:
@@ -31,11 +33,18 @@ print(data) #prints out {'condition': 'Sunny'}
 print({data['condition']} #prints out 'Sunny'
 ```
 
+Receiving Data:
+
+The data comes back as a JSON object in the form of {'condition': 'some sort of text indicating the weather condition'}, You can then manipulate this data to just have the weather condition using the example above.
+
 Important notes: 
+
 -The microservice uses the localhost at port 5302, this can of course be changed as need be.
 
 -Make sure to import requests if using python
 
--Data comes back as a JSON object. An example of this is {'condition': 'Sunny'}. If you would like to just have the Sunny part of the data. refer to the requested example
-
 UML Diagram:
+
+
+
+![UML](https://github.com/TieNuw/CS361_microservice/assets/107895279/760e73ed-8818-4379-a159-28b3405e8a4d)
